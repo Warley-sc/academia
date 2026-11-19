@@ -1,3 +1,5 @@
+@import url(./header.css);
+
 * {
   padding: 0;
   box-sizing: border-box;
@@ -19,56 +21,7 @@ html body {
 
 /* cabecario */
 
-header {
-  z-index: 999;
-  top: 0;
-  position: fixed;
-  background-color: #555555;
-  height: 65px;
-  width: 100%;
-  border-radius: 0 0 10px 10px;
-}
-.logo {
-  float: left;
-  padding: 10px;
-  color: white;
-}
-.navbar-desktop {
-  float: right;
-}
 
-.navbar-desktop ul li {
-  margin-left: 30px;
-  display: inline-block;
-  padding: 2px 15px;
-  margin-top: 15px;
-  list-style: none;
-}
-.navbar-desktop ul li:hover {
-  border-radius: 10px;
-  background-color: rgb(101, 152, 152);
-}
-.navbar-desktop ul li a {
-  text-decoration: none;
-  color: white;
-}
-
-.navbar-mobile-01 {
-  display: none;
-}
-
-.icon-menu {
-  display: none;
-  cursor: pointer;
-}
-.icon-menu span {
-  margin: 8px;
-  display: block;
-  height: 2px;
-  width: 32px;
-  background-color: white;
-  border-radius: 2px;
-}
 
 .carousel {
   padding: 0 2%;
@@ -166,7 +119,7 @@ section.card-wraper-var {
 
 /* descircao */
 section.descricao {
-  background-color: rgb(101, 152, 152);
+  background-color: #659898;
   min-height: 400px;
   padding: 20px 10px;
 }

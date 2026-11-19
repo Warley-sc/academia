@@ -1,0 +1,92 @@
+:root {
+    --color-primaria: #232b2b;
+    --color-txt: #659898;
+}
+
+
+header {
+    z-index: 999;
+    top: 0;
+    position: fixed;
+    background-color: var(--color-primaria);
+    min-height: 65px;
+    width: 100%;
+
+}
+
+.navbar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-line {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo {
+    color: white;
+    width: 20%;
+}
+
+.navbar-desktop {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-desktop ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-desktop ul li{
+    margin-top: 15px;
+}
+.contato-nav {
+    padding: 10px 15px;
+    transition: ease-in-out 0.5s;
+    border: solid 1px var(--color-primaria);
+    border-radius: 25px;
+
+}
+
+.navbar-desktop ul li a:hover{
+    color: var(--color-txt) ;
+}
+
+.contato-nav:hover {
+    border: solid 1px white;
+}
+
+.navbar-desktop ul li a {
+    text-decoration: none;
+    color: white;
+    transition: ease 0.5s;
+}
+
+.navbar-mobile-01 {
+    display: none;
+}
+
+.icon-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.icon-menu span {
+    margin: 8px;
+    display: block;
+    height: 2px;
+    width: 32px;
+    background-color: white;
+    border-radius: 2px;
+}
